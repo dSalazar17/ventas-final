@@ -1,0 +1,30 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "Proyecto Final. Ventas online 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dSalazar17/ventas-final.git"
+  },
+  "author": "Dylan Salazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dSalazar17/ventas-final/issues"
+  },
+  "homepage": "https://github.com/dSalazar17/ventas-final#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2"
+  }
+}
