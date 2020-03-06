@@ -7,7 +7,7 @@ const schema = Schema({
     usuario_name: { type: String, required: true },
     email: { type: String, required: true },
     password: { type: String, required: true },
-    rol: String
+    rol: {type: String, enum: ['CLIENT', 'ADMIN'], required: true}
 })
 
 module.exports = mongoose.model('user', schema)

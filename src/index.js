@@ -5,7 +5,7 @@ const app = require("./app")
 const ACTUAL_DATE = new Date()
 
 mongoose.Promise = global.Promise; 
-mongoose.connect('mongodb://localhost:27017/control-empresa', {useNewUrlParser: true, useUnifiedTopology: true}).then(()=>{
+mongoose.connect('mongodb://localhost:27017/final-project', {useNewUrlParser: true, useUnifiedTopology: true}).then(()=>{
     console.log(`${ACTUAL_DATE} ==>`)
 
     app.set('port', process.env.PORT || 4000)
